@@ -164,7 +164,7 @@ main a {
     cursor: pointer;
 }
 
-h2 {
+main li:nth-child(1) {
     text-align: center;
     font-size: 1.8vw;
     margin-bottom: 0.3vw;
@@ -226,7 +226,7 @@ footer {
 }
 
 footer a, 
-footer span {
+footer h2 {
     color: #e8e6e0;
     font-size: 4vw;
     text-decoration: none;
