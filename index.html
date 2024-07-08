@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Anton Filuta</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 
 <body>
@@ -15,36 +20,36 @@
         <header>
             <nav>
                 <ul>
-                    <li>biografy</li>
-                    <li>contact</li>
-                    <li>aducation</li>
-                    <li>about</li>
-                    <li>projects</li>
+                    <li onclick="window.location ='#c1'">biografy</li>
+                    <li onclick="window.location ='#c2'">contact</li>
+                    <li onclick="window.location ='#c3'">aducation</li>
+                    <li onclick="window.location ='#c4'">about</li>
+                    <li onclick="window.location ='#c5'">projects</li>
                 </ul>
             </nav>
         </header>
         <main>
             <div class="card-box">
-                <ul class="card">
-                    <h2>Biografy</h2>
+                <ul class="card" id="c1">
+                    <li>Biografy</li>
                     <li>First-Name: Anton</li>
                     <li>Last-Name: Filiuta</li>
                     <li>Age: 17</li>
                 </ul>
-                <ul class="card">
-                    <h2>Aducation</h2>
+                <ul class="card"  id="c2">
+                    <li>Aducation</li>
                     <li>Country: Belarus</li>
                     <li>Aducation: School (gold medal)</li>
                     <li>Exam: 384/400 points</li>
                 </ul>
-                <ul class="card">
-                    <h2>Projects</h2>
+                <ul class="card"  id="c3">
+                    <li>Projects</li>
                     <li>In Prodaction: <a href="https://tew.by">tew.by</a></li>
                     <li>Only GitHub: <a href="https://antonfiluta.github.io/nail.school/courses.html">Nail.School</a></li>
                     <li>My First Work: <a href="https://antonfiluta.github.io/rsschool-cv-2023/">CV-2023</a></li>
                 </ul>
-                <ul class="card">
-                    <h2>Contact</h2>
+                <ul class="card"  id="c4">
+                    <li>Contact</li>
                     <li>Phone: +375 (29) 927-77-75</li>
                     <li>Inst: @anton.filuta</li>
                     <li>Telegram: @anton_filuta</li>
@@ -52,8 +57,8 @@
                     <li>Discord: @antonfiluta</li>
                     <li>VK: @anton filuta</li>
                 </ul>
-                <ul class="card">
-                    <h2>About</h2>
+                <ul class="card"  id="c5">
+                    <li>About</li>
                     <li>Aim: become a Full-Stack Developer</li>
                     <li>Hobby: Books, Anime and Sport</li>
                     <li>Languages: English, Russian and Belarussian</li>
@@ -92,7 +97,7 @@ function lifeStyle(porshe911) {
         <footer>
             <a href="https://github.com/antonfiluta">GitHub</a>
             <a href="https://rs.school/courses/javascript-ru"><img src="images/logo-rsschool3.png" alt="logo"></a>
-            <span>2024</span>
+            <h2>2024</h2>
         </footer>
     </div>
     <script src="script.js"></script>
